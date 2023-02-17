@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-size: 1.125rem;
+    font-family: "Fira Sans", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #505050, #404040);
+}
+
+.wrapper{
+    width: 25%; 
+    height: auto;
+    background-color: #373737;
+}
+
+.numberDisplay{
+    aspect-ratio: 16/5;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    font-size: 1.75rem;
+}
+
+.buttons{
+    width: 100%;
+    height: auto;
+}
+
+.numberBtn, .operatorBtn, .equalBtn, .divideBtn{
+    aspect-ratio: 1/1;
+    height: auto;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #373737;
+}
+
+.numberBtn, .operatorBtn, .equalBtn, .divideBtn, .spBtn{
+    transition: background-color 150ms ease-in-out 0s;
+}
+
+.operatorBtn, .divideBtn{
+    color: #3490DE;
+    background-color: #404040;
+}
+
+.spBtn{
+    color: white;
+    background-color: #373737;
+}
+
+.numberBtn:hover{
+    background-color: #404040;
+}
+
+.operatorBtn:hover{
+    background-color: #454545;
+}
+
+.spBtn:hover{
+    background-color: #404040;
+}
+
+.delBtn{
+    color: white;
+    background-color: #E84545;
+}
+
+.delBtn:hover{
+    background-color: #fa5050;
+}
+
+.equalBtn{
+    color: white;
+    background-color: #4ECCA3;
+}
+
+.equalBtn:hover{
+    background-color: #5fdcb4;
+}
+
+@media only screen and (max-width: 820px){
+    .wrapper{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .wrapper{
+        width: 90%;
+    }
+}

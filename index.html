@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Simple Calculator</title>
+    </head>
+    <body class="d-flex justify-content-center align-items-center">
+        <div class="wrapper">
+            <input type="text" class="numberDisplay px-3 text-white" style="outline: none; text-align: right;" readonly>
+            <div class="container-fluid buttons">
+                <div class="row">
+                    <button class="col-3 operatorBtn delBtn">AC</button>
+                    <button class="col-3 operatorBtn spBtn">+/-</button>
+                    <button class="col-3 operatorBtn spBtn">%</button>
+                    <button class="col-3 divideBtn">÷</button>
+                </div>
+                <div class="row">
+                    <button class="col-3 numberBtn">7</button>
+                    <button class="col-3 numberBtn">8</button>
+                    <button class="col-3 numberBtn">9</button>
+                    <button class="col-3 operatorBtn">*</button>
+                </div>
+                <div class="row">
+                    <button class="col-3 numberBtn">4</button>
+                    <button class="col-3 numberBtn">5</button>
+                    <button class="col-3 numberBtn">6</button>
+                    <button class="col-3 operatorBtn">-</button>
+                </div>
+                <div class="row">
+                    <button class="col-3 numberBtn">1</button>
+                    <button class="col-3 numberBtn">2</button>
+                    <button class="col-3 numberBtn">3</button>
+                    <button class="col-3 operatorBtn">+</button>
+                </div>
+                <div class="row">
+                    <button class="col-6 numberBtn" style="aspect-ratio: 16;">0</button>
+                    <button class="col-3 numberBtn">.</button>
+                    <button class="col-3 equalBtn">=</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
