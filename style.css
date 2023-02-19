@@ -68,6 +68,10 @@ body{
     background-color: #404040;
 }
 
+.divideBtn:hover{
+    background-color: #454545;
+}
+
 .delBtn{
     color: white;
     background-color: #E84545;
